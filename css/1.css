@@ -1,0 +1,86 @@
+/*--Front Page Design--*/
+body{
+background-color: #F7D9C4;
+}
+  
+.title {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+color: rgb(45, 53);
+font-size: 80px;
+text-align: center;
+}
+
+.pa {
+    font-family: "Alex brush", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(45, 53);
+font-size: 70px;
+text-align: center;
+}
+
+.lesson {
+    height: 200px;
+width: 500px;
+background-image: url(learn2.jpg);
+background-size: 150% 150%;
+background-position: center;
+background-repeat: no-repeat;
+color: rgb(85, 42, 42);
+border: 30px double #eec6ad;
+text-align: center;
+display: inline-block;
+font-size: 50px;
+margin: px;
+cursor: pointer;
+text-decoration: dotted;
+padding: 15px 32px;
+margin-left:3px;
+}
+
+.lesson:hover { border: 20px ridge #eec6ad;}
+
+
+.videos {
+    height: 200px;
+width: 500px;
+background-image: url(vid2.jpg);
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+color: rgb(85, 42, 42);
+border: 30px double #eec6ad;
+text-align: center;
+display: inline-block;
+font-size: 50px;
+margin: px;
+cursor: pointer;
+text-decoration: dotted;
+padding: 15px 32px;
+margin-left:px;
+}
+
+.videos:hover { border: 20px ridge #eec6ad;}
+
+.images {
+height: 200px;
+width: 500px;
+background-image: url(pic2.jpg);
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+color: rgb(85, 42, 42);
+border: 30px double #eec6ad;
+text-align: center;
+display:inline-block;
+font-size: 50px;
+margin: px;
+cursor: pointer;
+text-decoration: dotted;
+padding: 15px 32px;
+margin-left:px;
+}
+
+.images:hover { border: 20px ridge #eec6ad;}

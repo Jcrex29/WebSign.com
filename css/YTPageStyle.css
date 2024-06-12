@@ -1,0 +1,68 @@
+body{
+    background-color: #F7D9C4;
+    }
+
+
+    .tiless{
+        margin-top: 20px;
+        font-family: "Alex brush", cursive;
+        font-weight:500;
+        font-style: normal;
+        color: rgb(255, 255, 0);
+      font-size: 80px;
+      text-align: center;
+      text-shadow: 2px 2px rgb(135, 135, 135);
+      }
+    
+      hr{
+        size: 100%;
+      }
+      hr.head{
+        margin-top: -60px;
+      border: 3px dashed rgb(122, 122, 116);
+    }
+
+
+     /*back button*/
+     a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover{color: yellow;}
+  .home{
+    cursor: pointer;
+  }
+  /*/back    button*/
+
+  .container{
+    margin-top: -50PX;
+    width: 90%;
+    padding: 20px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+.YT{
+    margin-top: 10px;
+    box-shadow:  0 20px 20px 20px rgba(0, 0, 0, .1);
+    border: 2px double yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.YT:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}

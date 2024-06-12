@@ -1,0 +1,74 @@
+body{
+    background-color: #F7D9C4;
+    }
+
+
+    .tiless{
+        margin-top: 20px;
+        font-family: "Alex brush", cursive;
+        font-weight:500;
+        font-style: normal;
+        color: rgb(255, 255, 0);
+      font-size: 80px;
+      text-align: center;
+      text-shadow: 2px 2px rgb(135, 135, 135);
+      }
+    
+      hr{
+        size: 100%;
+      }
+      hr.head{
+        margin-top: -60px;
+      border: 3px dashed rgb(122, 122, 116);
+    }
+
+
+     /*back button*/
+     a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover{color: yellow;}
+  .home{
+    cursor: pointer;
+  }
+  /*/back    button*/
+
+.container{
+
+    width: 90%;
+    padding: 20px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: s;
+}
+
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    border: 3px dashed yellow;
+}

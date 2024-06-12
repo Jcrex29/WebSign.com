@@ -1,0 +1,84 @@
+body{
+    background-color: #F7D9C4;
+    }
+
+    .tiless{
+      margin-top: 20px;
+      font-family: "Alex brush", cursive;
+      font-weight:500;
+      font-style: normal;
+      color: rgb(255, 255, 0);
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(135, 135, 135);
+    }
+  
+    hr{
+      size: 100%;
+    }
+    hr.head{
+      margin-top: -60px;
+    border: 3px dashed rgb(122, 122, 116);
+  }
+
+
+   /*back button*/
+   a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover{color: yellow;}
+.home{
+  cursor: pointer;
+}
+div{
+  margin: 5% auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+    .alphabet {
+      height: 200px;
+    width: 500px;
+   background-color: #f0ece8;
+    color: rgb(85, 42, 42);
+    border: 30px double #eec6ad;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: px;
+    cursor: pointer;
+    text-decoration: dotted;
+    padding: 15px 32px;
+    margin-left:3px;
+    }
+    
+    .alphabet:hover { border: 20px ridge #eec6ad;}
+
+    .numbers {
+      height: 200px;
+    width: 500px;
+    background-color: #f0ece8;
+    color: rgb(85, 42, 42);
+    border: 30px double #eec6ad;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: -40px;
+    cursor: pointer;
+    text-decoration: dotted;
+    padding: 15px 32px;
+    margin-left:3px;
+    }
+    
+    .numbers:hover { border: 20px ridge #eec6ad;}
